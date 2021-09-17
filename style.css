@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+.container-main {
+    width: 624px;
+    margin: 0 auto;
+}
+
+.container-math-problems {
+    width: 600px;
+    border: 3px solid black;
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+}
+
+.row1 div,
+.row2 div,
+.row3 div {
+    width: 60px;
+    flex: 1;
+    text-align: right;
+    font-size: 16px;
+
+}
+
+.far-right {
+    margin-right: 60px;
+}
+
+.math-symbol {
+    font-size: 24px;
+    text-align: right;
+}
